@@ -1,0 +1,50 @@
+@use "../util" as *;
+
+.topBar {
+  background-image: url("img/topBar.jpg");
+  width: 100%;
+  height: 20px;
+  top: 0;
+}
+
+.header h1 {
+  color: var(--white);
+  font-weight: 500;
+  font-size: rem(36);
+}
+#titleLink {
+  background-color: var(--black);
+  text-align: center;
+  max-height: em(175);
+  padding: em(20) 0 em(30);
+  margin-bottom: em(20);
+}
+#titleLink h1 {
+  color: var(--lightGreen);
+}
+#titleLink img {
+  max-width: 100%;
+  margin-top: em(20);
+}
+.titleImg {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  position: absolute;
+  width: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  text-align: center;
+  background-color: var(--black);
+}
+
+.headerLogo {
+  margin-bottom: rem(40);
+}

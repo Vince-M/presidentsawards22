@@ -1,0 +1,21 @@
+@use "../util" as *;
+
+.footer {
+  &__info {
+    text-align: center;
+    margin-top: rem(60);
+
+    p {
+      font-size: rem(14);
+    }
+
+    a {
+      text-decoration: underline;
+      cursor: pointer;
+
+      &:hover {
+        color: var(--lightGreen);
+      }
+    }
+  }
+}

@@ -1,0 +1,61 @@
+@use "../util" as *;
+
+h1,
+h2,
+h3,
+h4 {
+  margin-top: 0;
+  font-family: var(--font-display);
+  line-height: 1.1;
+  margin-bottom: 0;
+}
+
+a,
+a:visited,
+a:active {
+  text-decoration: none;
+}
+
+p {
+  font-family: var(--font-body);
+  font-size: rem(18);
+  line-height: 1.5;
+  color: var(--white);
+  margin-top: rem(10);
+  margin-bottom: rem(40);
+}
+
+h1 {
+  font-size: rem(48);
+  color: var(--white);
+  margin: rem(20) 0 rem(30);
+}
+h2 {
+  font-size: rem(42);
+  color: var(--lightGreen);
+}
+
+strong {
+  font-weight: 700;
+}
+sup {
+  vertical-align: super;
+  font-size: smaller;
+}
+
+a {
+  color: var(--white);
+}
+
+.headingThanks {
+  font-size: rem(27);
+  font-weight: 700;
+  color: var(--lightGreen);
+  margin-bottom: rem(10);
+}
+.thankYou {
+  font-size: rem(36);
+  font-weight: 700;
+  color: var(--lightGreen);
+  margin-bottom: rem(10);
+}

@@ -1,0 +1,77 @@
+@use "../util" as *;
+
+html {
+  font-size: 100%;
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: var(--font-body);
+  font-weight: 500;
+  line-height: 1.3;
+  background-color: var(--darkGreen);
+}
+
+.wrapper {
+  max-width: rem(1200);
+  margin: rem(275) auto 0;
+  padding: 0 rem(10);
+  text-align: center;
+}
+
+.row {
+  padding: 0 rem(10);
+}
+
+.wp-block-columns {
+  display: flex;
+  margin-bottom: 1.75em;
+  box-sizing: border-box;
+  flex-wrap: wrap !important;
+  align-items: normal !important;
+  width: 100%;
+}
+
+.wp-container-2 .wp-block-column {
+  @include breakpoint-down(small) {
+    margin-bottom: rem(40);
+  }
+}
+
+img {
+  max-width: 100%;
+}
+
+.content {
+  width: 100%;
+  text-align: center;
+  margin-top: 2em;
+  margin-bottom: 1.625em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.content-form {
+  width: 100%;
+  text-align: left;
+  margin-top: 2em;
+  margin-bottom: 1.625em;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.rsvp_head {
+  margin-bottom: rem(40);
+}

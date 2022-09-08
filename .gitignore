@@ -1,0 +1,6 @@
+# Comment #
+.DS_Store
+.DS_store
+*.zip
+*.gz
+node_modules/
